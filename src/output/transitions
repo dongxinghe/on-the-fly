@@ -1,0 +1,7 @@
+// Puchi Automataton
+digraph {
+	"{3_1}" [label="\"emptyset\""]
+	"{3_1}" -> "\"emptyset\"" [label=q]
+	"{3_1}" [label="\"emptyset\",{3_1}"]
+	"{3_1}" -> "\"emptyset\",{3_1}" [label=p]
+}

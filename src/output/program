@@ -1,0 +1,13 @@
+// Puchi Automataton
+digraph {
+	"{s0}" [label="{b}"]
+	"{s0}" -> "{b}" [label=r]
+	"{b}" [label="{c}"]
+	"{b}" -> "{c}" [label=q]
+	"{c}" [label="{d}"]
+	"{c}" -> "{d}" [label=p]
+	"{f}" [label="{d}"]
+	"{f}" -> "{d}" [label=s]
+	"{d}" [label="{g"]
+	"{d}" -> "{g" [label=p]
+}
